@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "All tau_k-maximal graphs have the same size"
+type: software
+authors:
+  - family-names: Bhattacharjee
+    given-names: Deep
+    orcid: "https://orcid.org/0000-0003-0466-750X"
+    affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    email: d.bhattacharjee@erl-forschung.de
+version: 1.0.0
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/creelie/eConjectureTauMaximal"
+keywords:
+  - edge-disjoint spanning trees
+  - saturated graphs
+  - sparse graphs
+  - count matroid
+  - Laman graphs
+abstract: >-
+  A graph is tau_k-maximal if none of its subgraphs has k+1 edge-disjoint
+  spanning trees, but adding any missing edge creates such a subgraph. Wang
+  and Tian conjectured that every tau_k-maximal graph on n >= 2k+2 vertices
+  has exactly (k+1)(n-1)-1 edges. We prove this conjecture, and characterize
+  the tau_k-maximal graphs by edge counts alone.
+references:
+  - type: article
+    title: "Extremal graphs with no subgraph admitting k+1 edge-disjoint spanning trees"
+    authors:
+      - family-names: Wang
+        given-names: Qinglin
+      - family-names: Tian
+        given-names: Yingzhi
+    year: 2026
+    url: "https://arxiv.org/abs/2606.28198"
+    notes: "arXiv:2606.28198"

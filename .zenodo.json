@@ -1,0 +1,40 @@
+{
+  "title": "All tau_k-maximal graphs have the same size",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    }
+  ],
+  "description": "<p>A graph is &tau;<sub>k</sub>-maximal if none of its subgraphs has k+1 edge-disjoint spanning trees, but adding any missing edge creates such a subgraph. Wang and Tian conjectured that every &tau;<sub>k</sub>-maximal graph on n &ge; 2k+2 vertices has exactly (k+1)(n-1)-1 edges. We prove this conjecture: a graph is &tau;<sub>k</sub>-maximal if and only if it has (k+1)(n-1)-1 edges and every set X of at least two vertices spans at most (k+1)(|X|-1)-1 of them. For k = 1 these are exactly the Laman graphs.</p><p>The archive contains the paper (PDF, LaTeX sources with the figure as PNG, arXiv tarball) and independent checks in C, C++, Bash, Python, Julia and Lean 4. The C program checks every labelled graph on up to seven vertices for k = 1, 2, 3, deciding the existence of edge-disjoint spanning trees directly; for k = 1 its isomorphism-class counts 1, 3, 13, 70 match the counts of minimally rigid graphs in OEIS A227117. A Lean 4 proof with Mathlib proves, for every n and k and with only the standard axioms, every step after the Nash-Williams&ndash;Tutte theorem: the exchange lemma, the example, and the characterization of maximal sparse edge sets.</p>",
+  "keywords": [
+    "edge-disjoint spanning trees",
+    "saturated graphs",
+    "sparse graphs",
+    "count matroid",
+    "Laman graphs",
+    "05C05",
+    "05C35",
+    "05B35"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/creelie/eConjectureTauMaximal",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "arXiv:2606.28198",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
+  ],
+  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+}
