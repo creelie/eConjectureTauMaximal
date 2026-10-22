@@ -8,10 +8,11 @@ authors:
     orcid: "https://orcid.org/0000-0003-0466-750X"
     affiliation: "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
     email: d.bhattacharjee@erl-forschung.de
-version: 1.0.0
-date-released: 2026-10-09
+version: 1.1.0
+date-released: 2026-10-22
 license: MIT
 repository-code: "https://github.com/creelie/eConjectureTauMaximal"
+url: "https://github.com/creelie/eConjectureTauMaximal/releases/tag/v1.1.0"
 keywords:
   - edge-disjoint spanning trees
   - saturated graphs

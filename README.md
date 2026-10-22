@@ -27,7 +27,8 @@ exactly the Laman graphs.
 ## Paper
 
 `preprintTauMaximal/` holds the paper (LaTeX source and the TikZ figure); `dist/` holds the PDF, a
-source zip with the figure as PNG and an arXiv tarball, rebuilt by `scripts/build_paper.sh`.
+source zip with the figure as PNG and an arXiv tarball, rebuilt by `scripts/build_paper.sh`, which
+also copies the PDF to `paper/paper1/` and the source zip to `paper/paper2/`.
 
 ## Checks
 
@@ -62,7 +63,12 @@ runs them on every pull request.
 
 ## Citation
 
-See `CITATION.cff`. The Zenodo DOI will be added after the first release.
+See `CITATION.cff`. Releases:
+
+| Release | Link |
+|---|---|
+| v1.1.0 | https://github.com/creelie/eConjectureTauMaximal/releases/tag/v1.1.0 |
+| v1.0.0 | https://github.com/creelie/eConjectureTauMaximal/releases/tag/v1.0.0 |
 
 ## Licence
 
