@@ -11,6 +11,8 @@ A graph is τ_k-maximal if none of its subgraphs has k+1 edge-disjoint spanning 
 
 The proofs are by hand. A Lean 4 proof with Mathlib covers Lemmas 3.1, 3.2, 4.1 and Theorem 1.1 in sparse form for every n and k, using only the standard axioms. Exhaustive checks in C and Python decide τ̄ directly on every graph with up to seven vertices; for k = 1 the isomorphism-class counts 1, 3, 13, 70 match the minimally rigid graphs of OEIS A227117. Further checks run in C++, Bash, Julia (the Lee–Streinu pebble game) and a Lean kernel certificate.
 
+Release v1.1.0 makes the Data availability section of the paper cite this release, which holds the checks, and adds `paper/paper1` (PDF) and `paper/paper2` (LaTeX source zip). The mathematics is unchanged from v1.0.0.
+
 Files:
 - `tau-maximal-graphs.pdf`: the paper
 - `tau-maximal-graphs-tex.zip`: LaTeX source with the figure as PNG (and its TikZ source)

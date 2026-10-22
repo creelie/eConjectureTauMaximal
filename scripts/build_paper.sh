@@ -4,6 +4,7 @@
 #   dist/tau-maximal-graphs.pdf           the compiled paper
 #   dist/tau-maximal-graphs-tex.zip       main.tex with the figure as PNG (and its TikZ source)
 #   dist/tau-maximal-graphs-arxiv.tar.gz  main.tex and the figure as PDF, ready for arXiv
+#   paper/paper1/ and paper/paper2/        copies of the PDF and the tex.zip
 #
 # Needs pdflatex with amsart, tikz and hyperref; pdftoppm (poppler) for the PNG figure;
 # zip and tar.
@@ -56,4 +57,9 @@ for f in $FIGS; do cp "figures/$f.pdf" "$STAGE/arxiv/figures/"; done
 tar -czf "$DIST/$NAME-arxiv.tar.gz" -C "$STAGE/arxiv" .
 
 rm -f main.aux main.log main.out main.pdf
-ls -l "$DIST"
+
+echo "== paper/paper1 (PDF) and paper/paper2 (tex.zip)"
+mkdir -p "$ROOT/paper/paper1" "$ROOT/paper/paper2"
+cp "$DIST/$NAME.pdf" "$ROOT/paper/paper1/"
+cp "$DIST/$NAME-tex.zip" "$ROOT/paper/paper2/"
+ls -l "$DIST" "$ROOT/paper/paper1" "$ROOT/paper/paper2"
